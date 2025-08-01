@@ -1,0 +1,11 @@
+#program take 3 sides from the user and check wether its an equalateral,isoceles or scalen triangle
+
+s1=int(input("enter first side of triangle "))
+s2=int(input("enter second side of triangle "))
+s3=int(input("enter third side of triangle "))
+if s1==s2 and s1==s3:
+    print("it's an equalateral triangle")
+elif s1==s2 or s1==s3 or s2==s3:
+    print("it's an isosceles triangle")
+else:
+    print("it's a scalen triangle")
